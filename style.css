@@ -46,7 +46,7 @@ body{
     width: 100%;
  }
  .header-text{
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 30px;
 
   }
@@ -62,7 +62,7 @@ body{
      font-weight: bold;
   }
 /*........about.............*/
-#about{
+#about-section{
     padding: 80px 0;
 }
 .row{
@@ -85,6 +85,8 @@ body{
   font-size: 50px;
   font-weight: 600;
   color: #fff;
+  margin-bottom: 10px;
+  margin-left: 0%;
 }
 .tab-title{
    display: flex;
@@ -127,8 +129,12 @@ body{
 .tab-contents.active-tab{
    display: block;
 }
+.icon-container{
+   margin-right: 10px;
+   margin-left: 10px;
+}
 /*......Certification....*/
-#Certification{
+#certification-section{
    padding: 30px 0;
 }
 .Certificate-list{
@@ -142,7 +148,7 @@ body{
     margin-right: 50px;
 }
 .Certificate-list div{
-   background: #262626;
+   background: #464545;
    padding: 40px;
    font-size: 18px;
    font-weight: 300;
@@ -167,6 +173,49 @@ body{
    background: #ff004f;
    transform: translateY(-10px);
 }
+/*............Contact..........*/
+#contact-section{
+   padding: 30px 0;
+   margin-left: 60px;
+}
+.sub-title{
+   display: flex;
+   margin-left: 40px;
+}
+.contact-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px; 
+   font-size: 15px;
+}
+.contact-list div {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   margin-top: 30px;
+   margin-left: 50px;
+
+ }
+ 
+ .contact-list i {
+   font-size: 20px;
+   margin-right: 10px;
+ }
+ .contact-list p {
+   margin: 0;
+ }
+ 
+ .contact-list a {
+   color: #ff004f;
+   text-decoration: none;
+ }
+ 
+ .contact-list a:hover {
+   text-decoration: underline;
+ }
+
+  
+
 /*...........css for small screen..........*/
 @media only screen and (max-width: 600px){
 
