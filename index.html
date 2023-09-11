@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <script src="https://kit.fontawesome.com/3476a82072.js" crossorigin="anonymous"></script>
+
+        <title>Portfolio website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Shafa</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#certificate" class="nav__link">Certificate</a></li>
+                        <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Shafa</span><br> Developer</h1>
+
+                    <a href="#footer" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/shafa-shabudeen/" class="home__social-icon"><i class="fa-brands fa-linkedin" style="color: #121212;"></i></a>
+                    <a href="mailto:shafashabbu@gmail.com" class="home__social-icon"><i class="fa-solid fa-at" style="color: #121212;"></i></a>
+                    <a href="https://github.com/shafa-shabudeen" class="home__social-icon"><i class="fa-brands fa-github" style="color: #121212;"></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/profile-image.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/profile.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Shafa</h2>
+                        <p class="about__text">Certified Java Professional with expertise in core and advanced Java and Spring Boot. Proven track record of delivering successful projects and driving customer engagement.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-brands fa-java skills__icon" style="color: #3074e8;"></i>
+                                <span class="skills__name"> Java</span>
+                            </div>
+                            <div class="skills__bar skills__java">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-brands fa-html5 skills__icon" style="color: #3074e8;"></i>
+                                <span class="skills__name"> HTML</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-brands fa-css3 skills__icon'></i>
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-brands fa-square-js skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-spring-boot skills__icon'></i>
+                                <span class="skills__name">Spring Boot</span>
+                            </div>
+                            <div class="skills__bar skills__springBoot">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-mongodb skills__icon'></i>
+                                <span class="skills__name">MongoDB</span>
+                            </div>
+                            <div class="skills__bar skills__mongodb">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-brands fa-react skills__icon'></i>
+                                <span class="skills__name">React</span>
+                            </div>
+                            <div class="skills__bar skills__react">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-brands fa-github skills__icon'></i>
+                                <span class="skills__name">Git & GitHub</span>
+                            </div>
+                            <div class="skills__bar skills__versionControl">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                
+                                <span class="skills__name">Problem Solving</span>
+                            </div>
+                            <div class="skills__bar skills__problemSolving">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                
+                                <span class="skills__name">Communication</span>
+                            </div>
+                            <div class="skills__bar skills__communication">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="projects-list">
+                        <div>
+                          <h3>Movie Web App</h3>
+                          <p>Experience a feature-rich Movie Web App built with Spring Boot, React, and MongoDB. Discover and manage movies effortlessly with user-friendly search, detailed information, and customizable user profiles.</p>
+                          <a href="https://github.com/shafa-shabudeen/Movie-App-backend.git" target="_blank">Go to Project</a>
+                        </div>
+                        <div>
+                          <h3>Dashboard Web App</h3>
+                          <p>Explore a powerful Dashboard Web Application seamlessly blending Spring Boot, React, and PostgreSQL. Access data visualization, user-friendly interfaces, and robust backend capabilities for effective data management and presentation</p>
+                          <a href="https://github.com/shafa-shabudeen/Dashboard-App-Backend.git" target="_blank">Go to Project</a>
+                      </div>
+                      <div>
+                        <h3>TODO Web Page</h3>
+                        <p>Experience a simple and efficient ToDo List Web Page crafted with HTML, CSS, and JavaScript. Stay organized, manage tasks, and boost productivity with this user-friendly and responsive task management solution.</p>
+                        <a href="https://shafa-shabudeen.github.io/TODO-List-web/" target="_blank">Go to Project</a>
+                    </div>
+                      </div>
+                  
+                </div>
+            </section>
+            
+            <!--===== CERTIFICATE =====-->
+            <section class="certificate-section" id="certificate">
+                <h2 class="section-title">Certificate</h2>
+            <div class="section" id="certificates">
+                <div class="nav-arrows">
+                    <button id="prev-arrow" class="prev-arrow"><i class="fas fa-chevron-left"></i></button>
+                </div>
+                <div class="content-slide" id="certificate-slide">
+                    <div class="slide">
+                        <h3>Getting Started with MongoDB Atlas</h3>
+                        <a href="https://learn.mongodb.com/c/bv6EscS-TeOKVpPw8WuCpg">View Certificate</a>
+                     </div>
+                     <div class="slide">
+                        <h3>Introduction to Web Development using HTML,CSS, and JavaScript</h3>
+                        <a href="https://drive.google.com/file/d/1pQMkRXbmR_lK5WNOfsK74M2VARY3THiq/view?usp=share_link">View Certificate</a>
+                     </div>
+                     <div class="slide">
+                        <h3>Introduction to Cloud computing </h3>
+                        <a href="https://drive.google.com/file/d/1K3-OovCWOL4OwqXjRo0f75Kt4rmNuFbE/view?usp=sharing">View Certificate</a>
+                     </div>
+                     <div class="slide">
+                        <h3>Advance Software Engineering Virtual Experience Program</h3>
+                        <a href="https://drive.google.com/file/d/1_weHtsn9poradwR5mLGPVrUqFCEnIZSw/view?usp=sharing">View Certificate</a>
+                     </div>
+                  <div class="slide">
+                   <h3>Professional Java Developer</h3>
+                   <a href="https://drive.google.com/file/d/1QKFPkxfcdQwglyIbu-ETbhs5tm9FgrNk/view?usp=sharing">View Certificate</a>
+                </div>
+                <div class="slide">
+                 <h3>Advance Java Programming certificate </h3>
+                 <a href="https://drive.google.com/file/d/1grkjYAosvOpcwpndnSpwMMP0AC10BlOq/view?usp=drivesdk">View Certificate</a>
+                </div>
+                <div class="slide">
+                  <h3>Innovate India Coding Championship</h3>
+                  <a href="https://drive.google.com/file/d/1hzmB6FGa-oRW-IgPtMvZRCg431_WhN7M/view?usp=share_link">View Certificate</a>
+                </div>
+                <div class="slide">
+                  <h3>Aptitude preparations</h3>
+                  <a href="https://drive.google.com/file/d/1issg1PDcPYkYY7oSrPBBRXRWoe1502GE/view?usp=drivesdk">view Certificate</a>
+                </div>
+                <div class="slide">
+                  <h3>Introduction to SQL </h3>
+                  <a href="https://drive.google.com/file/d/1isLHyrJpq-2CrAh9A_m94j0zJuayOERI/view?usp=share_link">view Certificate</a>
+                </div>
+                <div class="slide">
+                    <h3>TCS ion carrer edge - young professionals program </h3>
+                    <a href="https://drive.google.com/file/d/1eHXk5NqLkQ_kAnLBS_c5qNkihI9fu2cw/view?usp=drivesdk">view Certificate</a>
+                  </div>
+                <div class="slide">
+                  <h3>Coding Ninjas Certification</h3>
+                  <a href="https://drive.google.com/file/d/1pNZStOGeVYETbTLf5NBcSoOwxpYbRkHC/view?usp=share_link">view Certificate</a>
+                </div>
+                <div class="slide">
+                  <h3>Coding Ninjas Certification</h3>
+                  <a href="https://drive.google.com/file/d/1issg1PDcPYkYY7oSrPBBRXRWoe1502GE/view?usp=share_link">view Certificate</a>
+                </div>
+                <div class="slide">
+                  <h3>Great Learning Certification</h3>
+                  <a href="https://drive.google.com/file/d/1pbAK5YngN0wtQdEIQC72y6NBHVCbuJp_/view?usp=share_link">view Certificate</a>
+                </div>
+            </div>
+            <div class="nav-arrows">
+                <button id="next-arrow" class="next-arrow"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+            
+        <!--===== FOOTER =====-->
+        <footer class="footer" id="footer">
+            <p class="footer__title">Shafa</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/shafa-shabudeen/" class="footer__icon"><i class="fa-brands fa-linkedin" style="color: #fdf9f9;"></i></a>
+                <a href="mailto:shafashabbu@gmail.com" class="footer__icon"><i class="fa-solid fa-at" style="color: #fdf9f9;"></i></a>
+                <a href="https://github.com/shafa-shabudeen" class="footer__icon"><i class="fa-brands fa-github" style="color: #fdf9f9;"></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
